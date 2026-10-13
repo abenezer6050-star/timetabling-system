@@ -1,0 +1,179 @@
+{
+    "buildings": [
+        "Main Building",
+        "Science Block"
+    ],
+    "rooms": [
+        {
+            "name": "LT1",
+            "capacity": 120,
+            "room_type": "Lecture Theatre",
+            "building": "Main Building"
+        },
+        {
+            "name": "Lab A",
+            "capacity": 30,
+            "room_type": "Lab",
+            "building": "Science Block"
+        },
+        {
+            "name": "Lab B",
+            "capacity": 30,
+            "room_type": "Lab",
+            "building": "Science Block"
+        },
+        {
+            "name": "Sem 1",
+            "capacity": 25,
+            "room_type": "Seminar Room",
+            "building": "Main Building"
+        },
+        {
+            "name": "Tut 1",
+            "capacity": 20,
+            "room_type": "Tutorial Room",
+            "building": "Main Building"
+        }
+    ],
+    "timeslots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "11:00-12:00",
+        "12:00-13:00",
+        "13:00-14:00",
+        "14:00-15:00"
+    ],
+    "break_slots": [
+        "13:00-14:00"
+    ],
+    "lecturers": [
+        {
+            "name": "Dr Example A",
+            "unavailable": [
+                [
+                    "Friday",
+                    "09:00-10:00"
+                ],
+                [
+                    "Friday",
+                    "10:00-11:00"
+                ]
+            ]
+        },
+        {
+            "name": "Dr Example B",
+            "unavailable": []
+        },
+        {
+            "name": "Dr Example C",
+            "unavailable": [
+                [
+                    "Monday",
+                    "09:00-10:00"
+                ]
+            ]
+        }
+    ],
+    "groups": [
+        "CS Year 1",
+        "CS Year 2"
+    ],
+    "modules": [
+        {
+            "name": "Programming 1 (Lecture)",
+            "lecturer": "Dr Example A",
+            "room": "",
+            "timeslot": "",
+            "day": "",
+            "module_type": "Lecture",
+            "attendance": 100,
+            "consecutive": false,
+            "week_pattern": "Every Week",
+            "group": "CS Year 1"
+        },
+        {
+            "name": "Programming 1 (Lab)",
+            "lecturer": "Dr Example A",
+            "room": "",
+            "timeslot": "",
+            "day": "",
+            "module_type": "Lab",
+            "attendance": 28,
+            "consecutive": true,
+            "week_pattern": "Every Week",
+            "group": "CS Year 1"
+        },
+        {
+            "name": "Maths for CS",
+            "lecturer": "Dr Example B",
+            "room": "",
+            "timeslot": "",
+            "day": "",
+            "module_type": "Lecture",
+            "attendance": 100,
+            "consecutive": false,
+            "week_pattern": "Every Week",
+            "group": "CS Year 1"
+        },
+        {
+            "name": "Maths for CS (Tutorial)",
+            "lecturer": "Dr Example B",
+            "room": "",
+            "timeslot": "",
+            "day": "",
+            "module_type": "Tutorial",
+            "attendance": 18,
+            "consecutive": false,
+            "week_pattern": "Every Week",
+            "group": "CS Year 1"
+        },
+        {
+            "name": "Databases (Lecture)",
+            "lecturer": "Dr Example C",
+            "room": "",
+            "timeslot": "",
+            "day": "",
+            "module_type": "Lecture",
+            "attendance": 90,
+            "consecutive": false,
+            "week_pattern": "Every Week",
+            "group": "CS Year 2"
+        },
+        {
+            "name": "Databases (Lab)",
+            "lecturer": "Dr Example C",
+            "room": "",
+            "timeslot": "",
+            "day": "",
+            "module_type": "Lab",
+            "attendance": 28,
+            "consecutive": true,
+            "week_pattern": "Every Week",
+            "group": "CS Year 2"
+        },
+        {
+            "name": "Software Engineering (Seminar)",
+            "lecturer": "Dr Example B",
+            "room": "",
+            "timeslot": "",
+            "day": "",
+            "module_type": "Seminar",
+            "attendance": 24,
+            "consecutive": false,
+            "week_pattern": "Every Week",
+            "group": "CS Year 2"
+        },
+        {
+            "name": "Algorithms",
+            "lecturer": "Dr Example A",
+            "room": "",
+            "timeslot": "",
+            "day": "",
+            "module_type": "Lecture",
+            "attendance": 90,
+            "consecutive": false,
+            "week_pattern": "Every Week",
+            "group": "CS Year 2"
+        }
+    ]
+}
